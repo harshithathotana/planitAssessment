@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="9" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-24T22:01:20 AEST" name="Suite" finished-at="2023-09-24T22:03:00 AEST" duration-ms="100705">
+    <groups>
+    </groups>
+    <test started-at="2023-09-24T22:01:20 AEST" name="Jupiter Toys Website Test" finished-at="2023-09-24T22:03:00 AEST" duration-ms="100705">
+      <class name="Planit.Tests.PurchaseOrderTest">
+        <test-method is-config="true" signature="initializeAndLaunchDriver()[pri:0, instance:Planit.Tests.PurchaseOrderTest@3a7442c7]" started-at="2023-09-24T22:02:53 AEST" name="initializeAndLaunchDriver" finished-at="2023-09-24T22:02:57 AEST" duration-ms="4147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeAndLaunchDriver -->
+        <test-method signature="verifyProductsInCart(org.json.simple.JSONArray)[pri:0, instance:Planit.Tests.PurchaseOrderTest@3a7442c7]" started-at="2023-09-24T22:02:57 AEST" name="verifyProductsInCart" data-provider="getProductsData" finished-at="2023-09-24T22:02:59 AEST" duration-ms="2685" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[{"productCount":"2","productName":"Stuffed Frog"},{"productCount":"5","productName":"Fluffy Bunny"},{"productCount":"3","productName":"Valentine Bear"}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductsInCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Planit.Tests.PurchaseOrderTest@3a7442c7]" started-at="2023-09-24T22:02:59 AEST" name="tearDown" finished-at="2023-09-24T22:03:00 AEST" duration-ms="927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Planit.Tests.PurchaseOrderTest -->
+      <class name="Planit.Tests.ContactPageTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:Planit.Tests.ContactPageTest@7161d8d1]" started-at="2023-09-24T22:01:20 AEST" name="beforeSuite" finished-at="2023-09-24T22:01:20 AEST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="initializeAndLaunchDriver()[pri:0, instance:Planit.Tests.ContactPageTest@7161d8d1]" started-at="2023-09-24T22:01:20 AEST" name="initializeAndLaunchDriver" finished-at="2023-09-24T22:01:25 AEST" duration-ms="5055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeAndLaunchDriver -->
+        <test-method signature="errorValidationsforMandatoryFields(java.util.HashMap)[pri:0, instance:Planit.Tests.ContactPageTest@7161d8d1]" started-at="2023-09-24T22:01:25 AEST" name="errorValidationsforMandatoryFields" data-provider="getContactData" finished-at="2023-09-24T22:01:56 AEST" duration-ms="31200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{emailErrorText=Email is required, forename=a, messageErrorText=Message is required, message=Test, email=a@gmail.com, forenameErrorText=Forename is required}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errorValidationsforMandatoryFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Planit.Tests.ContactPageTest@7161d8d1]" started-at="2023-09-24T22:01:56 AEST" name="tearDown" finished-at="2023-09-24T22:01:57 AEST" duration-ms="467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initializeAndLaunchDriver()[pri:0, instance:Planit.Tests.ContactPageTest@7161d8d1]" started-at="2023-09-24T22:01:57 AEST" name="initializeAndLaunchDriver" finished-at="2023-09-24T22:02:01 AEST" duration-ms="3991" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeAndLaunchDriver -->
+        <test-method signature="verifySuccessfulSubmissionMessage(java.util.HashMap)[pri:0, instance:Planit.Tests.ContactPageTest@7161d8d1]" started-at="2023-09-24T22:02:01 AEST" name="verifySuccessfulSubmissionMessage" data-provider="getContactData" finished-at="2023-09-24T22:02:14 AEST" duration-ms="13513" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{emailErrorText=Email is required, forename=a, messageErrorText=Message is required, message=Test, email=a@gmail.com, forenameErrorText=Forename is required}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccessfulSubmissionMessage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Planit.Tests.ContactPageTest@7161d8d1]" started-at="2023-09-24T22:02:14 AEST" name="tearDown" finished-at="2023-09-24T22:02:15 AEST" duration-ms="384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initializeAndLaunchDriver()[pri:0, instance:Planit.Tests.ContactPageTest@7161d8d1]" started-at="2023-09-24T22:02:15 AEST" name="initializeAndLaunchDriver" finished-at="2023-09-24T22:02:19 AEST" duration-ms="4326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeAndLaunchDriver -->
+        <test-method signature="verifySuccessfulSubmissionMessage(java.util.HashMap)[pri:0, instance:Planit.Tests.ContactPageTest@7161d8d1]" started-at="2023-09-24T22:02:19 AEST" name="verifySuccessfulSubmissionMessage" data-provider="getContactData" finished-at="2023-09-24T22:02:21 AEST" duration-ms="1798" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{emailErrorText=Email is required, forename=a, messageErrorText=Message is required, message=Test, email=a@gmail.com, forenameErrorText=Forename is required}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccessfulSubmissionMessage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Planit.Tests.ContactPageTest@7161d8d1]" started-at="2023-09-24T22:02:21 AEST" name="tearDown" finished-at="2023-09-24T22:02:21 AEST" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initializeAndLaunchDriver()[pri:0, instance:Planit.Tests.ContactPageTest@7161d8d1]" started-at="2023-09-24T22:02:21 AEST" name="initializeAndLaunchDriver" finished-at="2023-09-24T22:02:24 AEST" duration-ms="3434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeAndLaunchDriver -->
+        <test-method signature="verifySuccessfulSubmissionMessage(java.util.HashMap)[pri:0, instance:Planit.Tests.ContactPageTest@7161d8d1]" started-at="2023-09-24T22:02:24 AEST" name="verifySuccessfulSubmissionMessage" data-provider="getContactData" finished-at="2023-09-24T22:02:28 AEST" duration-ms="3638" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{emailErrorText=Email is required, forename=a, messageErrorText=Message is required, message=Test, email=a@gmail.com, forenameErrorText=Forename is required}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccessfulSubmissionMessage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Planit.Tests.ContactPageTest@7161d8d1]" started-at="2023-09-24T22:02:28 AEST" name="tearDown" finished-at="2023-09-24T22:02:29 AEST" duration-ms="592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initializeAndLaunchDriver()[pri:0, instance:Planit.Tests.ContactPageTest@7161d8d1]" started-at="2023-09-24T22:02:29 AEST" name="initializeAndLaunchDriver" finished-at="2023-09-24T22:02:32 AEST" duration-ms="3413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeAndLaunchDriver -->
+        <test-method signature="verifySuccessfulSubmissionMessage(java.util.HashMap)[pri:0, instance:Planit.Tests.ContactPageTest@7161d8d1]" started-at="2023-09-24T22:02:32 AEST" name="verifySuccessfulSubmissionMessage" data-provider="getContactData" finished-at="2023-09-24T22:02:34 AEST" duration-ms="1900" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{emailErrorText=Email is required, forename=a, messageErrorText=Message is required, message=Test, email=a@gmail.com, forenameErrorText=Forename is required}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccessfulSubmissionMessage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Planit.Tests.ContactPageTest@7161d8d1]" started-at="2023-09-24T22:02:34 AEST" name="tearDown" finished-at="2023-09-24T22:02:34 AEST" duration-ms="305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initializeAndLaunchDriver()[pri:0, instance:Planit.Tests.ContactPageTest@7161d8d1]" started-at="2023-09-24T22:02:34 AEST" name="initializeAndLaunchDriver" finished-at="2023-09-24T22:02:37 AEST" duration-ms="3235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeAndLaunchDriver -->
+        <test-method signature="verifySuccessfulSubmissionMessage(java.util.HashMap)[pri:0, instance:Planit.Tests.ContactPageTest@7161d8d1]" started-at="2023-09-24T22:02:37 AEST" name="verifySuccessfulSubmissionMessage" data-provider="getContactData" finished-at="2023-09-24T22:02:52 AEST" duration-ms="14553" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{emailErrorText=Email is required, forename=a, messageErrorText=Message is required, message=Test, email=a@gmail.com, forenameErrorText=Forename is required}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccessfulSubmissionMessage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Planit.Tests.ContactPageTest@7161d8d1]" started-at="2023-09-24T22:02:52 AEST" name="tearDown" finished-at="2023-09-24T22:02:53 AEST" duration-ms="589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Planit.Tests.ContactPageTest@7161d8d1]" started-at="2023-09-24T22:03:00 AEST" name="afterSuite" finished-at="2023-09-24T22:03:01 AEST" duration-ms="640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- Planit.Tests.ContactPageTest -->
+    </test> <!-- Jupiter Toys Website Test -->
+  </suite> <!-- Suite -->
+</testng-results>
